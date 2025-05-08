@@ -87,8 +87,11 @@ print(en_metrics)
 
 ```
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+![image](https://github.com/user-attachments/assets/b2841b1c-8437-4ee2-a6b1-2229c52a9919)
 
+![image](https://github.com/user-attachments/assets/c7918dd7-ce7a-4eee-b31d-ced30697fe8b)
+
+![image](https://github.com/user-attachments/assets/dc20eea3-b5bd-4d32-8687-8862d53b1c4b)
 
 ## Result:
 Thus, the logistic regression model was successfully implemented to classify food items for diabetic patients based on nutritional information, and the model's performance was evaluated using various performance metrics such as accuracy, precision, and recall.
