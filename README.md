@@ -23,7 +23,7 @@ To implement a logistic regression model to classify food items for diabetic pat
 ### Developed by: NARASIMHAN S
 ### RegisterNumber:  212223230133
 
-```
+```python
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder, MinMaxScaler
