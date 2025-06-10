@@ -61,16 +61,6 @@ en_model = LogisticRegression(random_state=2, penalty=penalty, multi_class=multi
 en_model.fit(X_train, y_train)
 
 def evaluate_metrics(y_true, y_pred):
-    """
-    Evaluates the performance of a classification model using common metrics.
-
-    Parameters:
-    y_true (array-like): True labels of the test data.
-    y_pred (array-like): Predicted labels from the model.
-
-    Returns:
-    dict: Dictionary containing accuracy, precision, recall, and F1-score.
-    """
     metrics = {
         'accuracy': accuracy_score(y_true, y_pred),
         'precision': precision_score(y_true, y_pred, average='weighted'),
